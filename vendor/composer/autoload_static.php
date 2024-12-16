@@ -4,13 +4,24 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit3b106b5e4248369c1a5d4a9da6f59de9
+class ComposerStaticInitaef54bcd4a5e7587e6f5fe90e18c051e
 {
     public static $files = array (
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '88254829cb0eed057c30eaabb6d8edc4' => __DIR__ . '/..' . '/amphp/amp/src/functions.php',
         '429ae5f14a13a9076791c19422e10996' => __DIR__ . '/..' . '/amphp/amp/src/Future/functions.php',
         'c8601a4144b50a7b548da082c89c4dc1' => __DIR__ . '/..' . '/amphp/amp/src/Internal/functions.php',
+        '3da389f428d8ee50333e4391c3f45046' => __DIR__ . '/..' . '/amphp/serialization/src/functions.php',
+        'bcb7d4fc55f4b1a7e10f5806723e9892' => __DIR__ . '/..' . '/amphp/sync/src/functions.php',
+        '6c2681bc13923b80242cc286856cab22' => __DIR__ . '/..' . '/amphp/byte-stream/src/functions.php',
+        '4ee21bf8253a2272056aefb41f7f0116' => __DIR__ . '/..' . '/amphp/byte-stream/src/Internal/functions.php',
+        '107d0b55c0ad2d07d8643394552ac029' => __DIR__ . '/..' . '/amphp/process/src/functions.php',
+        '445532134d762b3cbc25500cac266092' => __DIR__ . '/..' . '/daverandom/libdns/src/functions.php',
+        'f4c761ca07639428acc28ba36643243e' => __DIR__ . '/..' . '/amphp/dns/src/functions.php',
+        'd4e415514e4352172d58f02433fa50e4' => __DIR__ . '/..' . '/amphp/socket/src/functions.php',
+        '1c2dcb9d6851a7abaae89f9586ddd460' => __DIR__ . '/..' . '/amphp/socket/src/Internal/functions.php',
+        '7fec264e4908bd2976476a6241c3f4d0' => __DIR__ . '/..' . '/amphp/socket/src/SocketAddress/functions.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '73cfe662a9f753fb79cdfcb7b4206d43' => __DIR__ . '/..' . '/amphp/mysql/src/functions.php',
         '2a3c2110e8e0295330dc3d11a4cbc4cb' => __DIR__ . '/..' . '/php-webdriver/webdriver/lib/Exception/TimeoutException.php',
     );
 
@@ -24,12 +35,38 @@ class ComposerStaticInit3b106b5e4248369c1a5d4a9da6f59de9
         array (
             'Revolt\\' => 7,
         ),
+        'P' => 
+        array (
+            'Psr\\Http\\Message\\' => 17,
+        ),
+        'L' => 
+        array (
+            'LibDNS\\' => 7,
+            'League\\Uri\\' => 11,
+        ),
+        'K' => 
+        array (
+            'Kelunik\\Certificate\\' => 20,
+        ),
         'F' => 
         array (
             'Facebook\\WebDriver\\' => 19,
         ),
         'A' => 
         array (
+            'Amp\\WindowsRegistry\\' => 20,
+            'Amp\\Sync\\' => 9,
+            'Amp\\Sql\\Common\\' => 15,
+            'Amp\\Sql\\' => 8,
+            'Amp\\Socket\\' => 11,
+            'Amp\\Serialization\\' => 18,
+            'Amp\\Process\\' => 12,
+            'Amp\\Pipeline\\' => 13,
+            'Amp\\Parser\\' => 11,
+            'Amp\\Mysql\\' => 10,
+            'Amp\\Dns\\' => 8,
+            'Amp\\Cache\\' => 10,
+            'Amp\\ByteStream\\' => 15,
             'Amp\\' => 4,
         ),
     );
@@ -47,9 +84,79 @@ class ComposerStaticInit3b106b5e4248369c1a5d4a9da6f59de9
         array (
             0 => __DIR__ . '/..' . '/revolt/event-loop/src',
         ),
+        'Psr\\Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+        ),
+        'LibDNS\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/daverandom/libdns/src',
+        ),
+        'League\\Uri\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/uri',
+            1 => __DIR__ . '/..' . '/league/uri-interfaces',
+        ),
+        'Kelunik\\Certificate\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kelunik/certificate/src',
+        ),
         'Facebook\\WebDriver\\' => 
         array (
             0 => __DIR__ . '/..' . '/php-webdriver/webdriver/lib',
+        ),
+        'Amp\\WindowsRegistry\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/amphp/windows-registry/src',
+        ),
+        'Amp\\Sync\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/amphp/sync/src',
+        ),
+        'Amp\\Sql\\Common\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/amphp/sql-common/src',
+        ),
+        'Amp\\Sql\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/amphp/sql/src',
+        ),
+        'Amp\\Socket\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/amphp/socket/src',
+        ),
+        'Amp\\Serialization\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/amphp/serialization/src',
+        ),
+        'Amp\\Process\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/amphp/process/src',
+        ),
+        'Amp\\Pipeline\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/amphp/pipeline/src',
+        ),
+        'Amp\\Parser\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/amphp/parser/src',
+        ),
+        'Amp\\Mysql\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/amphp/mysql/src',
+        ),
+        'Amp\\Dns\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/amphp/dns/src',
+        ),
+        'Amp\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/amphp/cache/src',
+        ),
+        'Amp\\ByteStream\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/amphp/byte-stream/src',
         ),
         'Amp\\' => 
         array (
@@ -69,9 +176,9 @@ class ComposerStaticInit3b106b5e4248369c1a5d4a9da6f59de9
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit3b106b5e4248369c1a5d4a9da6f59de9::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit3b106b5e4248369c1a5d4a9da6f59de9::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit3b106b5e4248369c1a5d4a9da6f59de9::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitaef54bcd4a5e7587e6f5fe90e18c051e::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitaef54bcd4a5e7587e6f5fe90e18c051e::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitaef54bcd4a5e7587e6f5fe90e18c051e::$classMap;
 
         }, null, ClassLoader::class);
     }

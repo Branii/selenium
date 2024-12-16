@@ -2,7 +2,7 @@
 require 'vendor/autoload.php';
 use Revolt\EventLoop;
 EventLoop::repeat(1, function () : void {
-    echo date("s");
+    echo date("s") . PHP_EOL;
 });
 EventLoop::run();
 

@@ -3,7 +3,8 @@
         "php-webdriver/webdriver": "^1.15",
         "symfony/process": "^7.2",
         "amphp/amp": "^3.0",
-        "revolt/event-loop": "^1.0"
+        "revolt/event-loop": "^1.0",
+        "amphp/mysql": "^3.0"
     },  "autoload": {
         "classmap": [
             "app/config/",
